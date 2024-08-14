@@ -1,6 +1,6 @@
 // update: add a new attribute to a doc
 db.school.update(
-    { name: "Holbertob school" },
+    { name: "Holberton school" },
     { $set: { address: "972 Nission Street" } },
     { multi: true }
 )
