@@ -7,5 +7,5 @@ def list_all(mango_collection):
       lists all doc in a collection
       return is empty
     """
-    doc = mongo_collection.find()
-    return doc
+    documents = mongo_collection.find()
+    return documents

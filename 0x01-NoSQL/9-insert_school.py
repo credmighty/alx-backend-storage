@@ -7,5 +7,5 @@ def insert_school(mango_collection, **kwargs):
       insert doc in a collection
       return new_id
     """
-    doc = mongo_collection.insert_one(kwargs)
-    return doc.inserted_id
+    new_document = mongo_collection.insert_one(kwargs)
+    return new_document.inserted_id
